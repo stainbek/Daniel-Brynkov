@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type">
+<TITLE>Web Page Title</TITLE>
+<script type="text/javascript">
+  function change (state) {
+    var lampImg = document.getElementById("lamp");
+    lampImg.src = "lamp_" + state + ".png";
+    var statusDiv = document.getElementById("statusDiv");
+    statusDiv.innerHTML = "The lamp is <b>" + state + "</b>.";
+  }
+</script>
+</HEAD>
+
+<body>
+<img id="lamp" src="lamp_on.png"
+  onmouseover="change('off')" onmouseout="change('on')"/>
+<div id="statusDiv">Сложете мишката върху лампата :)</div>
+</body>

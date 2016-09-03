@@ -18,3 +18,4 @@
   onmouseover="change('off')" onmouseout="change('on')"/>
 <div id="statusDiv">Сложете мишката върху лампата :)</div>
 </body>
+</HTML>
